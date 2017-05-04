@@ -53,6 +53,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener , W
             Glide.with(Contextor.getInstance().getContext()).load(url).into(ivSecond2);
         }
 //        Toast.makeText(Contextor.getInstance().getContext(),url,Toast.LENGTH_SHORT).show();
+        //
     }
 
     public SecondFragment() {
